@@ -290,9 +290,8 @@ class IPLAnalysis:
         fig.suptitle('Одномерный анализ данных IPL', fontsize=16, fontweight='bold')
         
         ax1 = axes[0, 0]
-        ax1.axis('off')  # Отключаем оси
+        ax1.axis('off') 
         
-        # Создаем информационную таблицу
         info_text = f"""
         ИНФОРМАЦИЯ О ДАННЫХ
         
