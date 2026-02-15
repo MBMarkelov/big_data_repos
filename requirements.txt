@@ -6,3 +6,7 @@ sqlalchemy==2.0.19
 scipy
 sklearn
 umap-learn
+wordcloud
+pymorphy3
+nltk
+gensim
