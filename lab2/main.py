@@ -49,10 +49,8 @@ df['Team_1_Name'] = df['Team_1'].map(team_dict)
 df['Team_2_Name'] = df['Team_2'].map(team_dict)
 df['Match_Winner_Name'] = df['Match_Winner'].map(team_dict)
 df['Toss_Winner_Name'] = df['Toss_Winner'].map(team_dict)
-
 season_dict = dict(zip(season['Season_Id'], season['Season_Year']))
 df['Season_Year'] = df['Season_Id'].map(season_dict)
-
 win_type_dict = dict(zip(win_by['Win_Id'], win_by['Win_Type']))
 df['Win_Type_Name'] = df['Win_Type'].map(win_type_dict)
 
