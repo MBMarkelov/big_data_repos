@@ -5,3 +5,4 @@ seaborn==0.12.2
 sqlalchemy==2.0.19
 scipy
 sklearn
+umap-learn
