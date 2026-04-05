@@ -628,7 +628,7 @@ class IPLAnalysis:
         finally:
             self.close()
 def main():
-    DB_PATH = r"C:\Users\MB_Markelov_PC\Documents\GitHub\big_data_repos\lab1\data\database.sqlite"
+    DB_PATH = r"C:\Users\MB_Markelov_Nout\Documents\GitHub\big_data_repos\lab1\data\database.sqlite"
     if not os.path.exists(DB_PATH):
         print(f"Файл базы данных не найден: {DB_PATH}")
         print("\nПоиск файлов .sqlite в текущей папке:")
